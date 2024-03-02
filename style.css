@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace; 
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgb(47, 53, 169);
+    font-size: 2em;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* Changed font */
+    border-bottom: 4px double purple;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-style: oblique; 
+}
+
+.job-title {
+    color: #671919;
+    font-weight: bold;
+}
+
+a:link,
+a:visited {
+    color: #fb6542;
+}
+
+a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+ul {
+    background-color: #eeeeee;
+    border: 5px outset purple; 
+    padding: 30px;
+}
